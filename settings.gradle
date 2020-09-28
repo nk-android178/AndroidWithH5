@@ -1,0 +1,2 @@
+rootProject.name='AndroidWithH5'
+include ':app'
