@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements JsBridge{
             @Override
             public void run() {
                 textView.setText(value);
+                webView.loadUrl("javascript:if(window.remote2){window.remote2('"+"来自Android的返回"+value+"')}");
             }
         });
     }
